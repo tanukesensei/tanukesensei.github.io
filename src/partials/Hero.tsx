@@ -53,12 +53,12 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="https://twitter.com/tanukesensei">
+          {/* <a href="https://twitter.com/tanukesensei">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
             />
-          </a>
+          </a> */}
           {/* <a href="/">
             <HeroSocial
               src="/assets/images/facebook-icon.png"
@@ -66,10 +66,7 @@ const Hero = () => (
             />
           </a> */}
           <a href="https://www.linkedin.com/in/tanukesensei/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
+            <HeroSocial src="/assets/images/linkedin.svg" alt="Linkedin icon" />
           </a>
           {/* <a href="/">
             <HeroSocial
@@ -78,10 +75,7 @@ const Hero = () => (
             />
           </a> */}
           <a href="https://github.com/tanukesensei">
-            <HeroSocial
-              src="/assets/images/github-mark-white.png"
-              alt="Github icon"
-            />
+            <HeroSocial src="/assets/images/github.svg" alt="Github icon" />
           </a>
         </>
       }
